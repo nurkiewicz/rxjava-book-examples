@@ -1,4 +1,4 @@
-package com.oreilly.rxjava.ch6.ch7;
+package com.oreilly.rxjava.ch7;
 
 class Person {
 }
