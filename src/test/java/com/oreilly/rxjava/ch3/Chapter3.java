@@ -3,6 +3,7 @@ package com.oreilly.rxjava.ch3;
 import com.oreilly.rxjava.util.Sleeper;
 import org.apache.commons.lang3.RandomUtils;
 import org.apache.commons.lang3.tuple.Pair;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -26,6 +27,7 @@ import static java.util.concurrent.TimeUnit.MILLISECONDS;
 import static java.util.concurrent.TimeUnit.SECONDS;
 import static rx.Observable.*;
 
+@Ignore
 public class Chapter3 {
 
 	private static final Logger log = LoggerFactory.getLogger(Chapter3.class);
