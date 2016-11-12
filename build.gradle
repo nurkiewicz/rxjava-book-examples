@@ -21,6 +21,7 @@ dependencies {
 
     testCompile 'ch.qos.logback:logback-classic:1.1.7'
     testCompile 'org.slf4j:slf4j-api:1.7.21'
+    testCompile 'io.dropwizard:dropwizard-metrics:1.0.3'
 
     testCompile 'org.springframework:spring-context:4.3.4.RELEASE'
     testCompile 'org.springframework:spring-jms:4.3.4.RELEASE'
@@ -38,6 +39,8 @@ dependencies {
 //    testCompile 'com.squareup.retrofit2:converter-jackson:2.0.1'
 
     testCompile 'junit:junit:4.12'
+    testCompile 'org.assertj:assertj-core:3.5.2'
+    testCompile 'org.mockito:mockito-core:2.2.15'
 }
 
 task wrapper(type: Wrapper) {
