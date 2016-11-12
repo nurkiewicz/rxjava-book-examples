@@ -1,0 +1,45 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+    testCompile 'io.reactivex:rxjava:1.2.2'
+    testCompile 'io.reactivex:rxnetty-http:0.5.2-rc.4'
+
+    testCompile 'com.google.guava:guava:18.0'
+    testCompile 'org.apache.commons:commons-collections4:4.1'
+    testCompile 'org.apache.commons:commons-lang3:3.5'
+    testCompile 'commons-dbutils:commons-dbutils:1.6'
+    testCompile 'commons-io:commons-io:2.5'
+    testCompile 'commons-dbutils:commons-dbutils:1.6'
+
+    testCompile 'ch.qos.logback:logback-classic:1.1.7'
+    testCompile 'org.slf4j:slf4j-api:1.7.21'
+
+    testCompile 'org.springframework:spring-context:4.3.4.RELEASE'
+    testCompile 'org.springframework:spring-jms:4.3.4.RELEASE'
+    testCompile 'org.springframework:spring-jdbc:4.3.4.RELEASE'
+
+    testCompile 'com.google.android:android:4.1.1.4'
+    testCompile 'org.postgresql:postgresql:9.4-1206-jdbc42'
+    testCompile 'org.twitter4j:twitter4j-stream:4.0.5'
+    testCompile 'com.ning:async-http-client:1.9.40'
+
+    testCompile 'javax.jms:jms-api:1.1-rev-1'
+    testCompile 'org.apache.activemq:activemq-client:5.14.1'
+
+//    testCompile 'com.squareup.retrofit2:adapter-rxjava:2.0.1'
+//    testCompile 'com.squareup.retrofit2:converter-jackson:2.0.1'
+
+    testCompile 'junit:junit:4.12'
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '3.1'
+}
