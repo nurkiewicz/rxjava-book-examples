@@ -13,3 +13,8 @@ If you find any example incomplete or broken, please [submit a PR](https://githu
 * [Chapter 7](https://github.com/nurkiewicz/rxjava-book-examples/tree/master/src/test/java/com/oreilly/rxjava/ch7)
 * [Chapter 8](https://github.com/nurkiewicz/rxjava-book-examples/tree/master/src/test/java/com/oreilly/rxjava/ch8)
 * [Appendix 1](https://github.com/nurkiewicz/rxjava-book-examples/tree/master/src/test/java/com/oreilly/rxjava/appendix1)
+
+# Remarks
+
+1. Some examples were slightly modified to support newer versions of dependent libraries
+2. Java projects can't simply import Android `.aar` libraries. Therefore parts of [RxAndroid](https://github.com/ReactiveX/RxAndroid) and [RxBinding](https://github.com/JakeWharton/RxBinding) source code were copied directly.
