@@ -12,6 +12,7 @@ If you find any example incomplete or broken, please [submit a PR](https://githu
 * [Chapter 6](https://github.com/nurkiewicz/rxjava-book-examples/tree/master/src/test/java/com/oreilly/rxjava/ch6)
 * [Chapter 7](https://github.com/nurkiewicz/rxjava-book-examples/tree/master/src/test/java/com/oreilly/rxjava/ch7)
 * [Chapter 8](https://github.com/nurkiewicz/rxjava-book-examples/tree/master/src/test/java/com/oreilly/rxjava/ch8)
+* [Chapter 9](https://github.com/nurkiewicz/rxjava-book-examples/tree/master/src/test/java/com/oreilly/rxjava/ch9)
 * [Appendix 1](https://github.com/nurkiewicz/rxjava-book-examples/tree/master/src/test/java/com/oreilly/rxjava/appendix1)
 
 # Remarks
