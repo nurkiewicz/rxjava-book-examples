@@ -142,7 +142,6 @@ public class Chapter7 {
 				.onErrorReturn(error -> Income.no());
 	}
 
-	@Test
 	public Observable<Income> sample_137() throws Exception {
 		Person person = new Person();
 		try {
