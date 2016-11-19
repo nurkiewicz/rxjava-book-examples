@@ -11,6 +11,8 @@ repositories {
 dependencies {
     testCompile 'io.reactivex:rxjava:1.2.2'
     testCompile 'io.reactivex:rxnetty-http:0.5.2-rc.4'
+    testCompile 'com.netflix.hystrix:hystrix-core:1.5.8'
+    testCompile 'com.netflix.hystrix:hystrix-metrics-event-stream:1.5.8'
 
     testCompile 'com.google.guava:guava:18.0'
     testCompile 'org.apache.commons:commons-collections4:4.1'
@@ -28,15 +30,26 @@ dependencies {
     testCompile 'org.springframework:spring-jdbc:4.3.4.RELEASE'
 
     testCompile 'com.google.android:android:4.1.1.4'
+//    testCompile 'com.jakewharton.rxbinding:rxbinding:0.4.0'
+
     testCompile 'org.postgresql:postgresql:9.4-1206-jdbc42'
     testCompile 'org.twitter4j:twitter4j-stream:4.0.5'
     testCompile 'com.ning:async-http-client:1.9.40'
 
     testCompile 'javax.jms:jms-api:1.1-rev-1'
     testCompile 'org.apache.activemq:activemq-client:5.14.1'
+    testCompile 'org.eclipse.jetty:jetty-servlet:9.4.0.RC2'
 
-//    testCompile 'com.squareup.retrofit2:adapter-rxjava:2.0.1'
-//    testCompile 'com.squareup.retrofit2:converter-jackson:2.0.1'
+    testCompile 'com.couchbase.client:java-client:2.3.5'
+    testCompile 'org.mongodb:mongodb-driver-rx:1.2.0'
+
+    testCompile 'org.apache.camel:camel-rx:2.17.3'
+    testCompile 'org.apache.camel:camel-kafka:2.17.3'
+    testCompile 'org.apache.activemq:activemq-camel:5.14.0'
+    testCompile 'org.apache.activemq:activemq-client:5.14.0'
+
+    testCompile 'com.squareup.retrofit2:adapter-rxjava:2.0.1'
+    testCompile 'com.squareup.retrofit2:converter-jackson:2.0.1'
 
     testCompile 'junit:junit:4.12'
     testCompile 'org.assertj:assertj-core:3.5.2'
